@@ -2,12 +2,16 @@
   "name": "paradas",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://William10101995.github.io/paradas_chaco_corrientes/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "leaflet": "^1.7.1",
     "leaflet.awesome-markers": "^2.0.5",
     "react": "^17.0.2",
