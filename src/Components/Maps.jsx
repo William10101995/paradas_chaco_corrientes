@@ -36,7 +36,7 @@ export const Maps = () => {
     <MapContainer center={state.rang} zoom={state.zoom}>
       <TileLayer
         attribution='© <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
-        url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
+        url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png?api_key=f3a71b93-04a2-4edf-a8d6-a3ee3a540f89"
       />
       <Marcadores paradas={location.state.paradas} />
       <Marker position={state.rang} icon={yourIcon}>

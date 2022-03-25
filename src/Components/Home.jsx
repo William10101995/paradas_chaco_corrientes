@@ -130,9 +130,9 @@ export const Home = () => {
         <h1>¿Dónde esperamos el cole?</h1>
 
         <div className="option">
-          <h2>Ramal</h2>
+          <h2>Ramales</h2>
           <Select
-            placeholder="Seleccione un ramal"
+            placeholder="Elegí un ramal"
             options={optionsRamal}
             value={state.options}
             onChange={handleChange}
@@ -140,10 +140,10 @@ export const Home = () => {
             styles={customStyles}
             isSearchable={false}
           />
-          <h2>Destino</h2>
+          <h2>Destinos</h2>
 
           <Select
-            placeholder="Seleccione su destino"
+            placeholder="Elegí un destino"
             options={optionsSentido()}
             value={state.options}
             onChange={handleChange}
